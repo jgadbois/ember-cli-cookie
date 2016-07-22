@@ -3,10 +3,6 @@
   "version": "0.2.0",
   "description": "Wrap $.cookie in Ember goodness",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower install --allow-root"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/achambers/ember-cli-cookie.git"
