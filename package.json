@@ -16,7 +16,4 @@
     "url": "https://github.com/achambers/ember-cli-cookie/issues"
   },
   "homepage": "https://github.com/achambers/ember-cli-cookie",
-  "dependencies": {
-    "bower": "^1.3.9"
-  }
 }
