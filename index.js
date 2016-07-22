@@ -16,11 +16,11 @@ function unwatchedTree(dir) {
 }
 
 EmberCLICookie.prototype.treeFor = function(name) {
-  //var treePath =  path.join('node_modules', 'ember-cli-cookie', name + '-addon');
+  var treePath =  path.join('node_modules', 'ember-cli-cookie', name + '-addon');
 
-  //if (fs.existsSync(treePath)) {
-    //return unwatchedTree(treePath);
-  //}
+  if (fs.existsSync(treePath)) {
+    return unwatchedTree(treePath);
+  }
 };
 
 EmberCLICookie.prototype.included = function(app) {
